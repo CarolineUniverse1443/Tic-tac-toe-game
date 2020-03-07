@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tic Tac Toe Game</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="styleGame.css">
+</head>
+
+<body>
+  <div id="main">
+	<div id="header">
+		<p>Tic Tac Toe</p>
+	</div>
+
+	<div id="content">
+		<svg width="360px" height="360px" id="field">
+			<line x1="122" y1="10" x2="122" y2="340" style="stroke:#fff; stroke-width: 10px; stroke-linecap:round;"></line>
+            <line x1="237" y1="10" x2="237" y2="340" style="stroke:#fff; stroke-width: 10px; stroke-linecap:round;"></line>
+            <line x1="17" y1="120" x2="342" y2="120" style="stroke:#fff; stroke-width: 10px; stroke-linecap:round;"></line>
+            <line x1="17" y1="230" x2="342" y2="230" style="stroke:#fff; stroke-width: 10px; stroke-linecap:round;"></line>
+		</svg>
+		
+		<div id="units">
+			<div id="s1" class="posit"></div>
+        	<div id="s2" class="posit"></div>
+        	<div id="s3" class="posit"></div>
+        	<div id="s4" class="posit"></div>
+        	<div id="s5" class="posit"></div>
+        	<div id="s6" class="posit"></div>
+        	<div id="s7" class="posit"></div>
+        	<div id="s8" class="posit"></div>
+        	<div id="s9" class="posit"></div>
+		</div>
+
+		<div id="config">
+			<div id="ngame" class="opt">
+				New game
+			</div>
+			<div id="imgs" class="opt">
+				<img src="https://cdn.icon-icons.com/icons2/906/PNG/512/cogwheel-1_icon-icons.com_70236.png" id="gear" />
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<a href="https://www.sololearn.com/Profile/14665380/?ref=app" target="_blank">&copy; 2020 Created by Caroline Popova</a>
+	</div>
+  </div>
+
+  <script type="text/javascript" src="script_game_X&O.js"></script>
+
+</body>
+</html>

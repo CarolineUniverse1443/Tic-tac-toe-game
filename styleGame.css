@@ -1,0 +1,190 @@
+body {
+	background-color: black;
+    background-image: url("https://st2.depositphotos.com/2980753/6333/v/950/depositphotos_63333583-stock-illustration-old-lettering-texture.jpg");
+    color: white;
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Audiowide';
+}
+
+#main {
+    width: 45%;
+    height: 620px;
+    margin: 0px;
+    box-shadow: 2px 0px 10px white, -2px 0px 10px white;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 28%;
+}
+
+#header {
+	margin: 0px;
+	margin-top: 10px;
+	/*background-color: pink;*/
+	height: 60px;
+	cursor: default;
+}
+
+p {
+    font-size: 34pt;
+    font-family: 'Audiowide';
+    text-align: center;
+    margin: 0px auto;
+    /*margin-top: 10px;*/
+    text-shadow: 2px 2px 8px red;
+}
+
+#content {
+	margin: 0px;
+	margin-top: 50px;
+	/*background-color: #ceb1e6;*/
+	width: 100%;
+	height: 463px;
+}
+
+#field {
+    margin: 0px auto;
+    margin-left: 130px;
+    /*background-color: green;*/
+    position: fixed;
+}
+
+#units {
+	margin: 0px;
+	margin-left: 130px;
+	position: relative;
+	z-index: 3;
+	width: 360px;
+	height: 360px;
+	/*background-color: DeepPink;*/
+	overflow: hidden;
+}
+
+i {
+    font-style: normal;
+    color: red;
+    text-shadow: 2px 2px 7px white;
+}
+b {
+    color: #0f0;
+    text-shadow: 2px 2px 7px white;
+    font-weight: lighter;
+}
+
+div.posit {
+    width: 105px;
+    height: 100px;
+    margin: 0px auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    /*background-color: blue;*/
+    text-align: center;
+    font-size: 55pt;
+    float: left;
+}
+
+div.posit:hover {
+    background-color: DeepPink;
+    cursor: pointer;
+}
+
+#s1, #s4, #s7 {
+	margin-left: 12px;
+}
+
+#s1, #s2, #s3 {
+	margin-top: 15px;
+}
+
+#config {
+    margin: 0px;
+    margin-top: 53px;
+    width: 100%;
+    height: 50px; 
+    /*background-color: blue;*/
+}
+
+.opt {
+    float: left;
+}
+
+#ngame {
+    margin: 0px auto;
+    margin-left: 208px;
+    padding-top: 0px;
+    color: #aaa;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 22pt;
+    cursor: pointer;
+    /*background-color: green;*/
+}
+
+#ngame:hover {
+    color:#fff;
+    text-shadow: 2px 2px 5px #0f0;
+}
+
+#ngame:active {
+    padding-top: 3px;
+}
+
+#imgs {
+    width: 25px;
+    height: 25px;
+    margin:0px;
+    margin-left: 130px;
+	margin-top: 10px;
+    /*background-color: green;*/
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+@keyframes spin { 
+    from {transform:rotate(0deg);} 
+    to {transform:rotate(180deg);} 
+}
+@-webkit-keyframes spin { 
+    from {transform:rotate(0deg);} 
+    to {transform:rotate(180deg);} 
+}
+
+img:hover { 
+    animation: spin 1.5s linear 0s;
+    -webkit-animation: spin 1.5s linear 0s;
+    cursor: pointer;
+}
+
+a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+.footer {
+    margin: 0px;
+    /*background-color: DeepPink;*/
+    color: #aaa;
+    width: 300px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 160px; 
+    position: relative;
+    clear: both;
+    font-size: 10pt;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer:hover {
+	color: white;
+	text-shadow: 0px 0px 8px #aaa;
+}
